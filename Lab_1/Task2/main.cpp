@@ -5,7 +5,6 @@ using namespace std;
 #define Pi 3.14
 
 int main() {
-    setlocale(LC_ALL, "Russian");
     float r, h;
     cin >> r >> h;
 
@@ -16,7 +15,7 @@ int main() {
 
     float v = Pi*pow(r,2)*h;
 
-    cout << "Square 1: " << s_full << endl;
-    cout << "Square 2: " << v << endl;
+    cout << "Surface area: " << s_full << endl;
+    cout << "Volume: " << v << endl;
 
 }

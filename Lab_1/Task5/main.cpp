@@ -13,16 +13,19 @@ int main() {
 
     int c_num = 0, b_num = 0, p_num = 0;
 
+    // Counting the number of full containers
     if(weight >= max_con_w){
         c_num = weight / max_con_w;
         weight = weight % max_con_w;
     }
 
+    // Counting the number of full boxes
     if(weight >= max_box_w){
         b_num = weight / max_box_w;
         weight = weight % max_box_w;
     }
 
+    // Counting the number of full packets
     if(weight >= max_packet_w){
         p_num = weight / max_packet_w;
         weight = weight % max_packet_w;

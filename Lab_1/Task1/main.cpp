@@ -15,9 +15,9 @@ int main() {
     double numerator = 2*cos((M_PI*x)/180) + sqrt(3)*sin(4*a)-1;
     double denominator = 2*sin(pow((M_PI*a)/180, 2))+cos((M_PI*42)/180)-pow(M_E, pow(x, 1.0/3));
 
-    float result = numerator / denominator;
+    a = numerator / denominator;
 
-    cout << "The result is " << result << endl;
+    cout << "The result is " << a << endl;
 
     return 0;
 }
