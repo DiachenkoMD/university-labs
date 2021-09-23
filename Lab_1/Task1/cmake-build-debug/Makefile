@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Xpert\CLionProjects\Lab1
+CMAKE_SOURCE_DIR = D:\Projects\C++\university-labs\Lab_1\Task1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Xpert\CLionProjects\Lab1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\C++\university-labs\Lab_1\Task1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Xpert\CLionProjects\Lab1\cmake-build-debug\CMakeFiles C:\Users\Xpert\CLionProjects\Lab1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\C++\university-labs\Lab_1\Task1\cmake-build-debug\CMakeFiles D:\Projects\C++\university-labs\Lab_1\Task1\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Xpert\CLionProjects\Lab1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\C++\university-labs\Lab_1\Task1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,44 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab1
+# Target rules for targets named Task1
 
 # Build rule for target.
-Lab1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Lab1
-.PHONY : Lab1
+Task1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) Task1
+.PHONY : Task1
 
 # fast build rule for target.
-Lab1\fast:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\build
-.PHONY : Lab1\fast
-
-Task_1\task1.obj: Task_1\task1.cpp.obj
-
-.PHONY : Task_1\task1.obj
-
-# target to build an object file
-Task_1\task1.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\Task_1\task1.cpp.obj
-.PHONY : Task_1\task1.cpp.obj
-
-Task_1\task1.i: Task_1\task1.cpp.i
-
-.PHONY : Task_1\task1.i
-
-# target to preprocess a source file
-Task_1\task1.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\Task_1\task1.cpp.i
-.PHONY : Task_1\task1.cpp.i
-
-Task_1\task1.s: Task_1\task1.cpp.s
-
-.PHONY : Task_1\task1.s
-
-# target to generate assembly for a file
-Task_1\task1.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\Task_1\task1.cpp.s
-.PHONY : Task_1\task1.cpp.s
+Task1\fast:
+	$(MAKE) -f CMakeFiles\Task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Task1.dir\build
+.PHONY : Task1\fast
 
 main.obj: main.cpp.obj
 
@@ -157,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\main.cpp.obj
+	$(MAKE) -f CMakeFiles\Task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Task1.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -166,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\main.cpp.i
+	$(MAKE) -f CMakeFiles\Task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Task1.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -175,35 +148,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\main.cpp.s
+	$(MAKE) -f CMakeFiles\Task1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Task1.dir\main.cpp.s
 .PHONY : main.cpp.s
-
-task1.obj: task1.cpp.obj
-
-.PHONY : task1.obj
-
-# target to build an object file
-task1.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\task1.cpp.obj
-.PHONY : task1.cpp.obj
-
-task1.i: task1.cpp.i
-
-.PHONY : task1.i
-
-# target to preprocess a source file
-task1.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\task1.cpp.i
-.PHONY : task1.cpp.i
-
-task1.s: task1.cpp.s
-
-.PHONY : task1.s
-
-# target to generate assembly for a file
-task1.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab1.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab1.dir\task1.cpp.s
-.PHONY : task1.cpp.s
 
 # Help Target
 help:
@@ -211,18 +157,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Lab1
+	@echo ... Task1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Task_1/task1.obj
-	@echo ... Task_1/task1.i
-	@echo ... Task_1/task1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... task1.obj
-	@echo ... task1.i
-	@echo ... task1.s
 .PHONY : help
 
 
