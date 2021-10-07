@@ -1,0 +1,3 @@
+D:/Projects/C++/University/university-labs-diachenko/Lab_2/Task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Projects/C++/University/university-labs-diachenko/Lab_2/Task3/cmake-build-debug/CMakeFiles/Task3.dir
+D:/Projects/C++/University/university-labs-diachenko/Lab_2/Task3/cmake-build-debug/CMakeFiles/edit_cache.dir
