@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/Projects/C++/CLionProjects/Lab_2/Task1/main.cpp
+D:/Projects/C++/university-labs/Lab_2/Task1/main.cpp
 iostream
 -
 math.h
--
-Windows.h
 -
 

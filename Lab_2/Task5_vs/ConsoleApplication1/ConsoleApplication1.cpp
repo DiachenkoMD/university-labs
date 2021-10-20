@@ -14,44 +14,16 @@ int main() {
             cout << "1 рік";
             break;
         }
-        case 2: {
-            cout << "2 роки";
+        case 2: case 3: case 4:{
+            cout << age << " роки" << endl;
             break;
         }
-        case 3: {
-            cout << "3 роки";
-            break;
-        }
-        case 4: {
-            cout << "4 роки";
-            break;
-        }
-        case 5: {
-            cout << "5 років";
-            break;
-        }
-        case 6: {
-            cout << "6 років";
-            break;
-        }
-        case 7: {
-            cout << "7 років";
-            break;
-        }
-        case 8: {
-            cout << "8 років";
-            break;
-        }
-        case 9: {
-            cout << "9 років";
-            break;
-        }
-        case 10: {
-            cout << "10 років";
+        case 5: case 6: case 7: case 8: case 9: case 10:{
+            cout << age << " років" << endl;
             break;
         }
         default:
-            cout << "Дівчинка не може будти на стільки дорослою!";
+            cout << "Дитина не може будти на стільки дорослою!" << endl;
             break;
     }
 
