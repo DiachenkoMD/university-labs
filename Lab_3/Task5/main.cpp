@@ -9,9 +9,9 @@ int main() {
     int fVar = 1;
     int sVar = 1;
 
-    int k = 0;
+    int k = 2;
     int sum = 0;
-
+    
     while(sum < s){
         int fibNumber = fVar + sVar;
 

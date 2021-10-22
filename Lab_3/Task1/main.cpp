@@ -2,41 +2,32 @@
 
 using namespace std;
 
-
-int getSquare(int width, int height){
-    int result = 0;
-    for(int i = 0; i < width; i++){
-        result += height;
-    }
-
-    return result;
-}
-
 int main() {
 
     int a,b,c;
 
     cin >> a >> b >> c;
 
-    int filledSpace = 0;
-    int fullSpace = getSquare(a, b);
+//    int filledSpace = 0;
+//
+//    int fullSpace = 0;
+//    for(int i = 0; i < b; i++){
+//        fullSpace += b;
+//    }
+
+    int addedBoxes = 0;
 
 
-    int filledHeight = 0;
-    while(filledHeight + c <= b){
-        int filledWidth = 0;
-        while(filledWidth + c <= a){
-            filledWidth += c;
+    while(b - c >= 0){
+        int resetA = a;
+        while(resetA - c >= 0){
+            addedBoxes++;
+            resetA -= c;
         }
-
-        filledSpace += getSquare(c, filledWidth);
-
-        filledHeight += c;
+        b -= c;
     }
 
-    cout << "Full Space: " << fullSpace << endl;
-    cout << "Filled Space: " << filledSpace << endl;
-    cout << "Left Space: " << fullSpace - filledSpace << endl;
+    cout << addedBoxes << endl;
 
     return 0;
 }

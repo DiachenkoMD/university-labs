@@ -44,10 +44,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4
+CMAKE_SOURCE_DIR = D:\Projects\C++\university-labs\Lab_3\Task4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\Task4.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\Task4.dir\flags.make
 
 CMakeFiles\Task4.dir\main.cpp.obj: CMakeFiles\Task4.dir\flags.make
 CMakeFiles\Task4.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task4.dir/main.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Task4.dir\main.cpp.obj /FdCMakeFiles\Task4.dir\ /FS -c D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Task4.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Task4.dir\main.cpp.obj /FdCMakeFiles\Task4.dir\ /FS -c D:\Projects\C++\university-labs\Lab_3\Task4\main.cpp
 <<
 
 CMakeFiles\Task4.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task4.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Task4.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\main.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\Task4.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Projects\C++\university-labs\Lab_3\Task4\main.cpp
 <<
 
 CMakeFiles\Task4.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task4.dir/main.cpp.s"
-	C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Task4.dir\main.cpp.s /c D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\main.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Task4.dir\main.cpp.s /c D:\Projects\C++\university-labs\Lab_3\Task4\main.cpp
 <<
 
 # Object files for target Task4
@@ -87,9 +87,9 @@ Task4_EXTERNAL_OBJECTS =
 Task4.exe: CMakeFiles\Task4.dir\main.cpp.obj
 Task4.exe: CMakeFiles\Task4.dir\build.make
 Task4.exe: CMakeFiles\Task4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task4.exe"
-	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Task4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~3\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Task4.dir\objects1.rsp @<<
- /out:Task4.exe /implib:Task4.lib /pdb:D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug\Task4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task4.exe"
+	"C:\Program Files\JetBrains\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Task4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Task4.dir\objects1.rsp @<<
+ /out:Task4.exe /implib:Task4.lib /pdb:D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug\Task4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -102,6 +102,6 @@ CMakeFiles\Task4.dir\clean:
 .PHONY : CMakeFiles\Task4.dir\clean
 
 CMakeFiles\Task4.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4 D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4 D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug D:\Projects\C++\University\university-labs-diachenko\Lab_3\Task4\cmake-build-debug\CMakeFiles\Task4.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\Projects\C++\university-labs\Lab_3\Task4 D:\Projects\C++\university-labs\Lab_3\Task4 D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug D:\Projects\C++\university-labs\Lab_3\Task4\cmake-build-debug\CMakeFiles\Task4.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\Task4.dir\depend
 

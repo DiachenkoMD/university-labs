@@ -12,7 +12,6 @@ int main() {
         sum += k;
         k++;
     }
-
     k--;
 
     cout << "K: " << k << endl;
