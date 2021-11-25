@@ -12,6 +12,10 @@ int main() {
         k /= 2;
     }
 
+    while(k*k <= n){
+        k++;
+    }
+
     cout << "The lowest K: " << k << endl;
 
     return 0;

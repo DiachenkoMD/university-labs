@@ -10,17 +10,25 @@ int main() {
     int sVar = 1;
 
     int k = 2;
-    int sum = 0;
-    
-    while(sum < s){
-        int fibNumber = fVar + sVar;
+    int sum = 2;
 
-        sum += fibNumber;
+    if(s <= 0){
+        cout << "Number should be greater than 0" << endl;
+        return 0;
+    }else if(s == 1){
+        k = 1;
+        sum = 1;
+    }else{
+        while(sum + fVar + sVar < s){
+            int fibNumber = fVar + sVar;
 
-        fVar = sVar;
-        sVar = fibNumber;
+            sum += fibNumber;
 
-        k++;
+            fVar = sVar;
+            sVar = fibNumber;
+
+            k++;
+        }
     }
 
     cout << "The lowest K: " << k << endl;
