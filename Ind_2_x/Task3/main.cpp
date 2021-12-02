@@ -8,6 +8,7 @@ double store[4];
 const double eps = 1e-3;
 
 
+
 double rec(double value, int i){
     store[0] = store[0] * store[2];
     store[1] = store[1] * store[3];
@@ -21,6 +22,10 @@ double rec(double value, int i){
     }else{
         return value;
     }
+}
+
+double rec(double value){
+    rec(value, 1);
 }
 
 
